@@ -32,7 +32,13 @@ that apply to that project.
 *   [Vim script Style Guide][vim]
 
 This project also contains [google-c-style.el][emacs], an Emacs settings file
-for Google style.
+for Google style, as well as IDE-specific Java formatter configurations:
+[eclipse-java-google-style.xml][eclipse-java] for Eclipse and
+[intellij-java-google-style.xml][intellij-java] for IntelliJ IDEA. These
+settings files can be imported into their respective IDEs to automatically format
+Java source code to conform to the [Google Java Style Guide][java]. See the
+[Enterprise Java Style Guide Adoption][java-enterprise] document for step-by-step
+IDE setup, build tool integration, and CI/CD enforcement instructions.
 
 We used to host the cpplint tool, but we stopped making internal updates public.
 An open source community has forked the project, so users are encouraged to use
@@ -82,6 +88,7 @@ primarily optimizing for Google's internal needs.
 [gh-tracker]: https://github.com/google/styleguide/issues
 [go]: go/
 [java]: https://google.github.io/styleguide/javaguide.html
+[java-enterprise]: java-enterprise-guide.md
 [json]: https://google.github.io/styleguide/jsoncstyleguide.xml
 [kotlin]: https://developer.android.com/kotlin/style-guide
 [py]: https://google.github.io/styleguide/pyguide.html
@@ -95,6 +102,8 @@ primarily optimizing for Google's internal needs.
 [cl]: https://google.github.io/styleguide/lispguide.xml
 [vim]: https://google.github.io/styleguide/vimscriptguide.xml
 [emacs]: https://raw.githubusercontent.com/google/styleguide/gh-pages/google-c-style.el
+[eclipse-java]: https://github.com/google/styleguide/blob/gh-pages/eclipse-java-google-style.xml
+[intellij-java]: https://github.com/google/styleguide/blob/gh-pages/intellij-java-google-style.xml
 [xml]: https://google.github.io/styleguide/xmlstyle.html
 [dart]: https://www.dartlang.org/guides/language/effective-dart
 [ccl]: https://creativecommons.org/licenses/by/3.0/
