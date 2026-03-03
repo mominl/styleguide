@@ -36,7 +36,9 @@ for Google style, as well as IDE-specific Java formatter configurations:
 [eclipse-java-google-style.xml][eclipse-java] for Eclipse and
 [intellij-java-google-style.xml][intellij-java] for IntelliJ IDEA. These
 settings files can be imported into their respective IDEs to automatically format
-Java source code to conform to the [Google Java Style Guide][java].
+Java source code to conform to the [Google Java Style Guide][java]. See the
+[Enterprise Java Style Guide Adoption][java-enterprise] document for step-by-step
+IDE setup, build tool integration, and CI/CD enforcement instructions.
 
 We used to host the cpplint tool, but we stopped making internal updates public.
 An open source community has forked the project, so users are encouraged to use
@@ -86,6 +88,7 @@ primarily optimizing for Google's internal needs.
 [gh-tracker]: https://github.com/google/styleguide/issues
 [go]: go/
 [java]: https://google.github.io/styleguide/javaguide.html
+[java-enterprise]: java-enterprise-guide.md
 [json]: https://google.github.io/styleguide/jsoncstyleguide.xml
 [kotlin]: https://developer.android.com/kotlin/style-guide
 [py]: https://google.github.io/styleguide/pyguide.html
